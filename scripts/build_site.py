@@ -129,11 +129,11 @@ def page():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Redbelly Without the Jargon</title>
+<title>Meet Redbelly</title>
 <meta name="description" content="A nine post X thread that explains Redbelly in everyday words, with images, narration, sources and a claim by claim fact check.">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#0c1317">
-<meta property="og:title" content="Redbelly Without the Jargon">
+<meta property="og:title" content="Meet Redbelly">
 <meta property="og:description" content="Real assets. Verified people. Rules built in.">
 <meta property="og:image" content="assets/img/og-image.png">
 <link rel="icon" href="assets/img/dao-icon.png">
@@ -160,8 +160,8 @@ def page():
 <div class="hero">
   <div class="wrap">
     <p class="label">X thread entry | Redbelly DAO Task Board</p>
-    <h1>Redbelly, explained <em>without the jargon</em>.</h1>
-    <p>{N} posts that explain what Redbelly does and why it matters, for a friend, a parent or a business owner. Every fact is traced to a public source, quote by quote.</p>
+    <h1>Meet <em>Redbelly</em>.</h1>
+    <p>{N} short posts on what Redbelly does and why it matters, written for a friend, a parent or a business owner. Every fact is traced to a public source, quote by quote.</p>
     <ul class="stats">
       <li>{N} <span>posts</span></li><li>{n_img} <span>images</span></li><li>{total_claims} <span>claims</span></li>
       <li>{len(QUOTES)} <span>quotes</span></li><li>{len(SOURCES)} <span>sources</span></li><li>{passed} <span>checks passed</span></li>

@@ -7,9 +7,7 @@ Status key: Captured automatically means a screenshot with the quote highlighted
 ## Post 1
 
 ```text
-Redbelly, explained without the jargon.
-
-It is a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items. With ID checks and the rules built in.
+Redbelly in one sentence: a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items, with ID checks and the rules built in.
 
 Here is why that matters. 1/9
 ```

@@ -36,5 +36,5 @@ Redbelly Network's corporate brand (Readex Pro, #FF5050) is a separate identity.
 | No emoji | None anywhere | `verify.py` |
 | No filler verbs (the kit names four) | None in anything we wrote | `verify.py` |
 | Say the number | Dates are exact ("November 2024", "May 2026", "30 October 2026"), posts are numbered 1/9 to 9/9 | |
-| Lead with the answer | Post 1 says what Redbelly is in its second sentence | |
+| Lead with the answer | Post 1 opens with "Redbelly in one sentence" and says what it is | |
 | First person, direct, plain | Short sentences. One idea per post | |

@@ -1,5 +1,5 @@
 {
-  "ran": "2026-10-30 14:47 UTC",
+  "ran": "2026-10-30 18:24 UTC",
   "live": true,
   "counts": {
     "PASS": 42,
@@ -150,7 +150,7 @@
     },
     {
       "status": "PASS",
-      "check": "Narration present, voice af_heart, 158 s",
+      "check": "Narration present, voice af_heart, 157 s",
       "detail": ""
     },
     {
@@ -160,7 +160,7 @@
     },
     {
       "status": "PASS",
-      "check": "Speech-to-text of the audio matches the thread (98% of words heard)",
+      "check": "Speech-to-text of the audio matches the thread (99% of words heard)",
       "detail": ""
     },
     {

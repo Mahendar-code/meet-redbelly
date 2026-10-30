@@ -1,4 +1,4 @@
-# Redbelly, explained without the jargon
+# Meet Redbelly
 
 Format: X thread, 9 posts. Images: 5 PNG files at 1600 x 900, attached to posts 1, 2, 3, 7 and 9. Facts last verified 30 October 2026.
 
@@ -7,16 +7,14 @@ Each post is in a plain text block so it can be copied exactly. The character co
 ## Post 1 of 9
 
 ```text
-Redbelly, explained without the jargon.
-
-It is a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items. With ID checks and the rules built in.
+Redbelly in one sentence: a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items, with ID checks and the rules built in.
 
 Here is why that matters. 1/9
 ```
 
-- Characters: 273 of 280
+- Characters: 252 of 280
 - Image: `images/post-01.png`
-- Alt text: Title card on a dark slate background. Small label: Redbelly in plain English. Headline: Real assets. Verified people. Rules built in. Below it: Redbelly is a public network, built in Australia, where bonds, investment funds and loans can be issued, managed and traded as digital items. Footer: Facts last verified 30 October 2026, with the Redbelly DAO logo in the corner.
+- Alt text: Title card on a dark slate background. Small label: Meet Redbelly. Headline: Real assets. Verified people. Rules built in. Below it: Redbelly is a public network, built in Australia, where bonds, investment funds and loans can be issued, managed and traded as digital items. Footer: Facts last verified 30 October 2026, with the Redbelly DAO logo in the corner.
 - Sources: S01, S02, S03, S07, S10, S11, S12
 
 ## Post 2 of 9

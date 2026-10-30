@@ -1,4 +1,4 @@
-# Redbelly, explained without the jargon
+# Meet Redbelly
 
 An X thread entry for the Redbelly DAO Community Task Board challenge to explain Redbelly to someone outside the industry, in everyday words, without the B-word or any stand-in for it.
 
@@ -28,9 +28,9 @@ Everything else in this repository exists so the entry can be checked:
 ## The thread
 
 ```text
-1/9  Redbelly, explained without the jargon. It is a public network, built in Australia, where real
-     financial assets like bonds, investment funds and loans can be issued, managed and traded as
-     digital items. With ID checks and the rules built in.
+1/9  Redbelly in one sentence: a public network, built in Australia, where real financial assets
+     like bonds, investment funds and loans can be issued, managed and traded as digital items,
+     with ID checks and the rules built in.
 2/9  The problem: money and paperwork pass between several companies, each with its own records.
 3/9  The idea: a digital concert ticket, but for a financial asset. This is called tokenisation.
 4/9  The people using it are verified, rules are checked automatically, privacy is protected.

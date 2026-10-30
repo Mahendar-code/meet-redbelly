@@ -1,268 +1,262 @@
 {
   "voice": "af_heart",
   "engine": "Kokoro-82M v1.0 (kokoro-onnx)",
-  "duration": 158.168,
+  "duration": 156.907,
   "posts": [
     {
       "post": 1,
       "start": 0.0,
-      "end": 17.907
+      "end": 16.645
     },
     {
       "post": 2,
-      "start": 18.757,
-      "end": 32.93
+      "start": 17.495,
+      "end": 31.669
     },
     {
       "post": 3,
-      "start": 33.78,
-      "end": 49.105
+      "start": 32.519,
+      "end": 47.844
     },
     {
       "post": 4,
-      "start": 49.955,
-      "end": 65.899
+      "start": 48.694,
+      "end": 64.638
     },
     {
       "post": 5,
-      "start": 66.749,
-      "end": 83.141
+      "start": 65.488,
+      "end": 81.88
     },
     {
       "post": 6,
-      "start": 83.991,
-      "end": 102.346
+      "start": 82.73,
+      "end": 101.085
     },
     {
       "post": 7,
-      "start": 103.196,
-      "end": 121.719
+      "start": 101.935,
+      "end": 120.457
     },
     {
       "post": 8,
-      "start": 122.569,
-      "end": 140.046
+      "start": 121.307,
+      "end": 138.785
     },
     {
       "post": 9,
-      "start": 140.896,
-      "end": 158.168
+      "start": 139.635,
+      "end": 156.907
     }
   ],
   "cues": [
     {
       "start": 0.0,
-      "end": 2.325,
-      "text": "Redbelly, explained without the jargon.",
+      "end": 1.579,
+      "text": "Redbelly in one sentence:",
       "post": 1
     },
     {
-      "start": 2.605,
-      "end": 13.549,
-      "text": "It is a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items.",
+      "start": 1.859,
+      "end": 14.936,
+      "text": "a public network, built in Australia, where real financial assets like bonds, investment funds and loans can be issued, managed and traded as digital items, with ID checks and the rules built in.",
       "post": 1
     },
     {
-      "start": 13.829,
-      "end": 16.197,
-      "text": "With ID checks and the rules built in.",
-      "post": 1
-    },
-    {
-      "start": 16.477,
-      "end": 17.907,
+      "start": 15.216,
+      "end": 16.645,
       "text": "Here is why that matters.",
       "post": 1
     },
     {
-      "start": 18.757,
-      "end": 20.037,
+      "start": 17.495,
+      "end": 18.775,
       "text": "Start with the problem.",
       "post": 2
     },
     {
-      "start": 20.317,
-      "end": 26.119,
+      "start": 19.055,
+      "end": 24.858,
       "text": "Buying into a bond or a fund today means money and paperwork passing between several companies.",
       "post": 2
     },
     {
-      "start": 26.399,
-      "end": 31.199,
+      "start": 25.138,
+      "end": 29.938,
       "text": "Each one keeps its own records, and they all have to be matched up, sometimes by hand.",
       "post": 2
     },
     {
-      "start": 31.479,
-      "end": 32.93,
+      "start": 30.218,
+      "end": 31.669,
       "text": "That costs time and money.",
       "post": 2
     },
     {
-      "start": 33.78,
-      "end": 35.892,
+      "start": 32.519,
+      "end": 34.631,
       "text": "Now picture a digital concert ticket.",
       "post": 3
     },
     {
-      "start": 36.172,
-      "end": 43.212,
+      "start": 34.911,
+      "end": 41.951,
       "text": "It proves the seat is yours, it moves to a new owner in seconds, and the venue sets the rules on who can resell it.",
       "post": 3
     },
     {
-      "start": 43.492,
-      "end": 46.415,
+      "start": 42.231,
+      "end": 45.153,
       "text": "Redbelly lets financial assets work the same way.",
       "post": 3
     },
     {
-      "start": 46.695,
-      "end": 49.105,
+      "start": 45.433,
+      "end": 47.844,
       "text": "In finance, this is called tokenisation.",
       "post": 3
     },
     {
-      "start": 49.955,
-      "end": 51.449,
+      "start": 48.694,
+      "end": 50.187,
       "text": "The part most people miss:",
       "post": 4
     },
     {
-      "start": 51.729,
-      "end": 55.355,
+      "start": 50.467,
+      "end": 54.094,
       "text": "Redbelly is designed so the people using it are verified.",
       "post": 4
     },
     {
-      "start": 55.635,
-      "end": 59.497,
+      "start": 54.374,
+      "end": 58.235,
       "text": "Each transfer can be checked against the asset's rules automatically.",
       "post": 4
     },
     {
-      "start": 59.777,
-      "end": 65.899,
+      "start": 58.515,
+      "end": 64.638,
       "text": "And privacy tech is used so that being verified does not mean showing everyone your personal details.",
       "post": 4
     },
     {
-      "start": 66.749,
-      "end": 68.477,
+      "start": 65.488,
+      "end": 67.216,
       "text": "So who keeps the records straight?",
       "post": 5
     },
     {
-      "start": 68.757,
-      "end": 71.061,
+      "start": 67.496,
+      "end": 69.8,
       "text": "No single computer gets the final say.",
       "post": 5
     },
     {
-      "start": 71.341,
-      "end": 78.36,
+      "start": 70.08,
+      "end": 77.099,
       "text": "A group of computers must agree on every transaction, using a voting method developed at the University of Sydney.",
       "post": 5
     },
     {
-      "start": 78.64,
-      "end": 83.141,
+      "start": 77.379,
+      "end": 81.88,
       "text": "Once something is confirmed, it is final, and everyone sees the same version.",
       "post": 5
     },
     {
-      "start": 83.991,
-      "end": 85.058,
+      "start": 82.73,
+      "end": 83.797,
       "text": "Where it comes from:",
       "post": 6
     },
     {
-      "start": 85.338,
-      "end": 92.719,
+      "start": 84.077,
+      "end": 91.458,
       "text": "Redbelly grew out of research at the University of Sydney and CSIRO, Australia's national science agency.",
       "post": 6
     },
     {
-      "start": 92.999,
-      "end": 96.455,
+      "start": 91.738,
+      "end": 95.194,
       "text": "The live network launched in November 2024.",
       "post": 6
     },
     {
-      "start": 96.735,
-      "end": 102.346,
+      "start": 95.474,
+      "end": 101.085,
       "text": "Tokeniser, a Redbelly Network project, runs on it for Australian funds and companies.",
       "post": 6
     },
     {
-      "start": 103.196,
-      "end": 105.884,
+      "start": 101.935,
+      "end": 104.623,
       "text": "It has also been used in a central bank project.",
       "post": 7
     },
     {
-      "start": 106.164,
-      "end": 117.983,
+      "start": 104.903,
+      "end": 116.721,
       "text": "Project Acacia, run by the Reserve Bank of Australia and the Digital Finance CRC, used Redbelly as one of its networks, including for pilot digital money from the central bank.",
       "post": 7
     },
     {
-      "start": 118.263,
-      "end": 121.719,
+      "start": 117.001,
+      "end": 120.457,
       "text": "The final report came out in May 2026.",
       "post": 7
     },
     {
-      "start": 122.569,
-      "end": 134.643,
+      "start": 121.307,
+      "end": 133.382,
       "text": "On Redbelly, teams led by Australian Bond Exchange, Fireblocks, Macropod and NotCentralised tested things like corporate bonds, an investment fund and a security backed by loans.",
       "post": 8
     },
     {
-      "start": 134.923,
-      "end": 135.841,
+      "start": 133.662,
+      "end": 134.579,
       "text": "To be clear:",
       "post": 8
     },
     {
-      "start": 136.121,
-      "end": 140.046,
+      "start": 134.859,
+      "end": 138.785,
       "text": "this was research, and the RBA does not endorse any participant.",
       "post": 8
     },
     {
-      "start": 140.896,
-      "end": 141.92,
+      "start": 139.635,
+      "end": 140.659,
       "text": "Why it matters:",
       "post": 9
     },
     {
-      "start": 142.2,
-      "end": 147.021,
+      "start": 140.939,
+      "end": 145.76,
       "text": "Businesses can raise money and manage investors digitally, with the rules built in.",
       "post": 9
     },
     {
-      "start": 147.301,
-      "end": 149.051,
+      "start": 146.04,
+      "end": 147.789,
       "text": "Trades can settle instantly.",
       "post": 9
     },
     {
-      "start": 149.331,
-      "end": 152.979,
+      "start": 148.069,
+      "end": 151.717,
       "text": "The money and the asset can move together, with less back and forth.",
       "post": 9
     },
     {
-      "start": 153.259,
-      "end": 156.395,
+      "start": 151.997,
+      "end": 155.133,
       "text": "Real assets, verified people, rules built in.",
       "post": 9
     },
     {
-      "start": 156.675,
-      "end": 158.168,
+      "start": 155.413,
+      "end": 156.907,
       "text": "redbelly.network",
       "post": 9
     }
