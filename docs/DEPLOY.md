@@ -37,6 +37,12 @@ sudo nginx -t && sudo systemctl reload nginx
 
 Add HTTPS with `sudo certbot --nginx -d your.domain.example` if the domain points at the server. Share the password only with the judges.
 
+## Vercel
+
+`vercel.json` tells Vercel to skip install and build and to serve `site/` as it is, because the site is already built and committed. The build scripts need a Chromium browser, which Vercel's build machines do not have. Import the repository with no other settings: Framework Preset Other, Root Directory left empty. `vercel.json` overrides the rest.
+
+A Vercel production URL is public. Until judging, turn on protection under Project Settings, Deployment Protection: Vercel Authentication for all deployments, or Password Protection where your plan offers it. `vercel.json` also sends an `X-Robots-Tag: noindex` header, but that only stops search engines, not people with the link.
+
 ## Quick preview without nginx
 
 ```bash

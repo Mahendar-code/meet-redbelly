@@ -7,7 +7,7 @@
     "images": "node scripts/render_images.mjs",
     "pdf": "node scripts/build_pdf.mjs",
     "evidence": "python3 scripts/pdf_evidence.py && node scripts/capture_evidence.mjs",
-    "build": "bash scripts/build_all.sh",
+    "rebuild": "bash scripts/build_all.sh",
     "verify": "python3 scripts/verify.py"
   },
   "devDependencies": {

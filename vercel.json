@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo \"Nothing to install: site/ is prebuilt and committed\"",
+  "buildCommand": "echo \"Nothing to build: site/ is prebuilt and committed\"",
+  "outputDirectory": "site",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/assets/audio/(.*).vtt",
+      "headers": [{ "key": "Content-Type", "value": "text/vtt; charset=utf-8" }]
+    }
+  ]
+}
