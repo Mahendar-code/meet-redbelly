@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Post 2 image</title>
+<link rel="stylesheet" href="card.css">
+<style>
+  h2 { margin: 28px 0 40px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; flex: 1; }
+  .card { display: flex; flex-direction: column; }
+  .body { padding: 28px 32px; display: flex; flex-direction: column; gap: 0; flex: 1; }
+  .box { background: var(--surface-container); border: 1px solid var(--outline-variant); border-radius: var(--radius-base); padding: 14px 22px; font-size: 26px; font-weight: 600; display: flex; justify-content: space-between; }
+  .box span { font-weight: 400; color: var(--on-surface-variant); }
+  .link { display: flex; align-items: center; gap: 18px; height: 50px; padding-left: 40px; border-left: 2px dashed var(--outline-variant); margin-left: 40px; font-size: 22px; font-style: italic; color: var(--outline); }
+  .body .status { margin-top: auto; padding-top: 18px; }
+  .one { background: var(--surface-steel); border: 1px solid var(--panel-edge); border-radius: var(--radius-base); padding: 26px 28px; font-size: 34px; font-weight: 700; line-height: 1.25; margin-bottom: 28px; }
+  .one small { display: block; font-size: 26px; font-weight: 400; color: var(--on-surface-variant); margin-top: 6px; }
+  .rows { display: flex; flex-direction: column; gap: 22px; }
+  .foot { margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="label">The problem, and the fix</div>
+  <h2>Many sets of records, or <span class="accent">one network</span>.</h2>
+  <div class="cols">
+    <div class="card">
+      <div class="card-head">Today</div>
+      <div class="body">
+        <div class="box">Company A <span>its own records</span></div>
+        <div class="link">match up, sometimes by hand</div>
+        <div class="box">Company B <span>its own records</span></div>
+        <div class="link">match up, sometimes by hand</div>
+        <div class="box">Company C <span>its own records</span></div>
+        <div class="status warn">Time and cost spent checking</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">On Redbelly</div>
+      <div class="body">
+        <div class="one">One network.<small>The people using it are verified.</small></div>
+        <div class="rows">
+          <div class="status ok">The asset and the money can move together</div>
+          <div class="status ok">Rules checked automatically</div>
+          <div class="status ok">Final once confirmed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="meta">2/9 | Facts last verified 30 October 2026</div>
+  </div>
+</div>
+</body>
+</html>

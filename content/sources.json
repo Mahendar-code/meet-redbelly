@@ -1,0 +1,449 @@
+{
+  "accessed": "2026-10-30",
+  "note": "Quotes are verbatim. [...] marks text left out. Where a quote is split into fragments, every fragment must appear in the source in that order.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Redbelly Network homepage",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/",
+      "type": "html",
+      "task_resource": true,
+      "quotes": [
+        {
+          "id": "S01-Q1",
+          "fragments": [
+            "Redbelly provides the infrastructure to issue, manage, and distribute regulated digital financial assets to a global investor base."
+          ]
+        },
+        {
+          "id": "S01-Q2",
+          "fragments": [
+            "A network of clean liquidity and verified participants enables structured products with clearly defined investor eligibility."
+          ]
+        },
+        {
+          "id": "S01-Q3",
+          "fragments": [
+            "Treasuries & Bonds",
+            "Private Credit",
+            "Real Estate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "About Us, including the Redbelly Journey timeline",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/about-us",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S02-Q1",
+          "fragments": [
+            "2021 June Block8, CSIRO and University of Sydney create Redbelly Network as a joint venture with seed funding"
+          ],
+          "manual_capture": "The text is in the page source and the snapshot, but this timeline is a scroll-animated carousel that renders these entries blank in an automated browser. Needs a manual screenshot: scroll to 'Redbelly Journey' on the About Us page and drag the timeline to this entry."
+        },
+        {
+          "id": "S02-Q2",
+          "fragments": [
+            "2024 November Mainnet Launched"
+          ],
+          "manual_capture": "The text is in the page source and the snapshot, but this timeline is a scroll-animated carousel that renders these entries blank in an automated browser. Needs a manual screenshot: scroll to 'Redbelly Journey' on the About Us page and drag the timeline to this entry."
+        },
+        {
+          "id": "S02-Q3",
+          "fragments": [
+            "2025 July Selected to participate in RBA Project Acacia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Redbelly Network Selected for the Reserve Bank of Australia's Project Acacia",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/projectacacia",
+      "type": "html",
+      "task_resource": true,
+      "quotes": [
+        {
+          "id": "S03-Q1",
+          "fragments": [
+            "Democratic Byzantine Fault Tolerant (DBFT) consensus mechanism, developed and rigorously tested at the University of Sydney."
+          ]
+        },
+        {
+          "id": "S03-Q2",
+          "fragments": [
+            "DBFT achieves consensus through a democratic process where no single node controls the outcome."
+          ]
+        },
+        {
+          "id": "S03-Q3",
+          "fragments": [
+            "This means Redbelly maintains a single, consistent transaction record with no forking or branching"
+          ]
+        },
+        {
+          "id": "S03-Q4",
+          "fragments": [
+            "Participants verify their identities, but their privacy remains protected through zero-knowledge proofs."
+          ]
+        },
+        {
+          "id": "S03-Q5",
+          "fragments": [
+            "Redbelly Network, which was developed at the University of Sydney and CSIRO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Project Acacia FAQ",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/projectacacia/FAQ",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S04-Q1",
+          "fragments": [
+            "Project Acacia is a research initiative led by the Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC)."
+          ]
+        },
+        {
+          "id": "S04-Q2",
+          "fragments": [
+            "This does not represent a partnership, endorsement, or approval by the RBA or DFCRC."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Project Acacia Partners",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/projectacacia/ProjectAcaciaPartners",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S05-Q1",
+          "fragments": [
+            "The Reserve Bank of Australia is Australia's central bank"
+          ]
+        },
+        {
+          "id": "S05-Q2",
+          "fragments": [
+            "The RBA does not endorse any participants or technologies involved in the project."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Redbelly Network Whitepaper page",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/whitepaper",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S06-Q1",
+          "fragments": [
+            "an innovative identity layer that ensures all network participants are known."
+          ]
+        },
+        {
+          "id": "S06-Q2",
+          "fragments": [
+            "guarantee the impossibility of forking and mitigate double spending with near-instant finality."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "Tokeniser homepage, including FAQ and footer",
+      "publisher": "Tokeniser Pty Ltd",
+      "url": "https://tokeniser.com/",
+      "type": "html",
+      "task_resource": true,
+      "quotes": [
+        {
+          "id": "S07-Q1",
+          "fragments": [
+            "Tokeniser operates on Redbelly Network, Australia's public digital token infrastructure, with identity and eligibility built into the protocol."
+          ]
+        },
+        {
+          "id": "S07-Q2",
+          "fragments": [
+            "Tokeniser is a Redbelly Network project:",
+            "born from research at the University of Sydney and Australian Government Science Agency: CSIRO"
+          ]
+        },
+        {
+          "id": "S07-Q3",
+          "fragments": [
+            "Every holder is verified and every transfer checked against the asset's rules, automatically."
+          ]
+        },
+        {
+          "id": "S07-Q4",
+          "fragments": [
+            "Tokenisation records ownership of financial products and services as digital tokens, and lets you program the rules of the asset."
+          ]
+        },
+        {
+          "id": "S07-Q5",
+          "fragments": [
+            "Holders gain fractional ownership, direct custody, atomic settlement, and 24/7 secondary trading through protocol finance."
+          ]
+        },
+        {
+          "id": "S07-Q6",
+          "fragments": [
+            "Built for funds and companies ready to go global"
+          ]
+        },
+        {
+          "id": "S07-Q7",
+          "fragments": [
+            "Lower capital costs. Faster fundraising. Better investor experience."
+          ]
+        },
+        {
+          "id": "S07-Q8",
+          "fragments": [
+            "SaaS for fund administration and investor portals."
+          ]
+        },
+        {
+          "id": "S07-Q9",
+          "fragments": [
+            "T+0",
+            "Settlement times"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "Media Release 2025-18: Project Acacia, RBA and DFCRC announce chosen industry participants (10 July 2025)",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2025/mr-25-18.html",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S08-Q1",
+          "fragments": [
+            "Project Acacia is a joint initiative between the Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC)."
+          ]
+        },
+        {
+          "id": "S08-Q2",
+          "fragments": [
+            "Issuance of pilot wholesale CBDC for testing use cases will occur on a range of private and public-permissioned",
+            "platforms, including Hedera, Redbelly Network, R3 Corda, Canvas Connect and other EVM-compatible networks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "Media Release 2026-13: RBA and DFCRC Release Findings From Project Acacia (18 May 2026)",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-13.html",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S09-Q1",
+          "fragments": [
+            "18 May 2026",
+            "today released a report detailing the findings of Project Acacia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "Project Acacia: Exploring the Role of Digital Money in Wholesale Tokenised Asset Markets, Final Report (May 2026)",
+      "publisher": "Reserve Bank of Australia and Digital Finance Cooperative Research Centre",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/tokenised-money/pdf/project-acacia-final-report.pdf",
+      "type": "pdf",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S10-Q1",
+          "page": 15,
+          "fragments": [
+            "Pilot use cases were conducted on a range of public and private",
+            "platforms, including Canvas Connect (private), Ethereum (public), Hedera (both public and private instances), Redbelly Network (public)"
+          ],
+          "printed_page": 12
+        },
+        {
+          "id": "S10-Q2",
+          "page": 16,
+          "fragments": [
+            "Use cases used three of the short-listed",
+            "platforms for their experimentation with pilot wCBDC",
+            "and Redbelly Network (a public-permissioned"
+          ],
+          "printed_page": 13
+        },
+        {
+          "id": "S10-Q3",
+          "page": 22,
+          "fragments": [
+            "Redbelly (used by ABE, Macropod, Fireblocks and NotCentralised)"
+          ],
+          "printed_page": 19
+        },
+        {
+          "id": "S10-Q4",
+          "page": 29,
+          "fragments": [
+            "In traditional financial systems, composability is usually achieved by using workflows to coordinate actions provided by different institutions and systems. The workflows are often complex and can require expensive manual coordination, reconciliation, and corrective steps"
+          ],
+          "printed_page": 26
+        },
+        {
+          "id": "S10-Q5",
+          "page": 60,
+          "fragments": [
+            "Australian Bond Exchange piloted secondary market transactions involving the purchase of a tokenised corporate bond digital twin",
+            "using wCBDC as the settlement asset. Both the tokenised bond and the wCBDC were issued on to the same network.",
+            "network used in use case: Redbelly Network."
+          ],
+          "printed_page": 57
+        },
+        {
+          "id": "S10-Q6",
+          "page": 63,
+          "fragments": [
+            "Macropod piloted two use cases. The first use case tested issuance, trading and redemption of tokenised units in a",
+            "wholesale managed investment scheme, with registration and",
+            "distribution handled through the Tokeniser platform."
+          ],
+          "printed_page": 60
+        },
+        {
+          "id": "S10-Q7",
+          "page": 64,
+          "fragments": [
+            "network used in use cases: Redbelly Network."
+          ],
+          "printed_page": 61
+        },
+        {
+          "id": "S10-Q8",
+          "page": 64,
+          "fragments": [
+            "NotCentralised piloted the structuring, issuance and management of a tokenised structured finance security backed by loans.",
+            "network used in use case: Redbelly Network."
+          ],
+          "printed_page": 61
+        },
+        {
+          "id": "S10-Q9",
+          "page": 28,
+          "fragments": [
+            "By integrating settlement, asset transfer and reconciliation functions on a single platform"
+          ],
+          "printed_page": 25
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Redbelly Mainnet is now LIVE! (blog post, 28 November 2024)",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/blog/redbelly-mainnet-is-live-now",
+      "type": "html",
+      "task_resource": false,
+      "quotes": [
+        {
+          "id": "S11-Q1",
+          "fragments": [
+            "2024-11-28",
+            "Redbelly Mainnet is now LIVE!"
+          ]
+        },
+        {
+          "id": "S11-Q2",
+          "fragments": [
+            "has officially launched its Mainnet."
+          ]
+        },
+        {
+          "id": "S11-Q3",
+          "fragments": [
+            "with the support of the University of Sydney, CSIRO's Data 61, and Block8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "Asset Tokenisation on Redbelly Network",
+      "publisher": "Redbelly Network",
+      "url": "https://redbelly.network/asset-tokenisation",
+      "type": "html",
+      "task_resource": true,
+      "quotes": [
+        {
+          "id": "S12-Q1",
+          "fragments": [
+            "Redbelly is designed to meet the requirements of regulated financial markets, providing open infrastructure that enables institutions to issue, manage, and distribute digital financial assets at scale."
+          ]
+        },
+        {
+          "id": "S12-Q2",
+          "fragments": [
+            "Redbelly is Digital Public Token Infrastructure"
+          ]
+        },
+        {
+          "id": "S12-Q3",
+          "fragments": [
+            "Verified participants enable full auditability and clear accountability across all transactions"
+          ]
+        },
+        {
+          "id": "S12-Q4",
+          "fragments": [
+            "A network of clean liquidity, combined with verifiable credentials enable tokenised investment products with defined investor eligibility, enforced at the point of trade."
+          ]
+        },
+        {
+          "id": "S12-Q5",
+          "fragments": [
+            "Eligibility can be verified programmatically at the point of issuance and trade"
+          ]
+        },
+        {
+          "id": "S12-Q6",
+          "fragments": [
+            "Deterministic finality ensures transactions are confirmed once and cannot be reversed"
+          ]
+        },
+        {
+          "id": "S12-Q7",
+          "fragments": [
+            "Lower intermediaries and automate issuance, settlement and compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

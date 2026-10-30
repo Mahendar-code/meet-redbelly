@@ -1,0 +1,217 @@
+{
+  "ran": "2026-10-30 14:24 UTC",
+  "live": true,
+  "counts": {
+    "PASS": 40,
+    "FAIL": 0,
+    "WARN": 0,
+    "PENDING": 1
+  },
+  "results": [
+    {
+      "status": "PASS",
+      "check": "Thread has 5 to 10 posts (9)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Every post fits X's 280 character limit (longest 273)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Posts are numbered 1/N to N/N in order",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Entry (posts, alt text, on-image text) has no banned term or stand-in",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Entry has no price talk, advice or promise of returns",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Posts and alt text avoid insider jargon",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Entry has no personal credit (names, handles, emails, signatures)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Entry has no emoji (DAO voice rule)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "5 images: 1600x900 PNG, under 5 MB, editable source present",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Every image has alt text within X's 1000 character limit",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Images are newer than their templates",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Every post carries at least one sourced claim",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "All 28 claims point to existing quotes",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Every quote in sources.json is used by a claim",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "All 48 quotes found verbatim in the saved source snapshots",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Negative control: a made-up quote is rejected",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "LIVE: every quote still present on the live sources",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "All sources use https",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Uses the task's listed resources (S01, S03, S07, S12)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Central bank facts backed by RBA primary sources (S08, S09, S10)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "46 quotes have an automated capture",
+      "detail": ""
+    },
+    {
+      "status": "PENDING",
+      "check": "2 quotes need a manual screenshot in evidence/manual/",
+      "detail": "still to add: S02-Q1.png, S02-Q2.png"
+    },
+    {
+      "status": "PASS",
+      "check": "No banned term or stand-in in any text file in the repo",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "No em dash or en dash anywhere (DAO voice rule)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "No filler verbs banned by the DAO voice rules",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "No email addresses anywhere in the repo",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Every colour used is a DAO brand kit token",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Only brand fonts are used (Be Vietnam Pro, JetBrains Mono)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Narration present, voice af_heart, 158 s",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Caption cues match the thread text exactly",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Speech-to-text of the audio matches the thread (98% of words heard)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Audio transcript has no banned term",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "THREAD.md contains every post verbatim",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "DOCX contains every post verbatim",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "DOCX has no banned term",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "PDF contains every post and no banned term",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Website shows every post verbatim",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Website asks search engines not to index it before judging",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "All 183 local links and assets on the website resolve",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Website loads nothing from third-party servers",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
+      "check": "Website has no personal credit",
+      "detail": ""
+    }
+  ]
+}

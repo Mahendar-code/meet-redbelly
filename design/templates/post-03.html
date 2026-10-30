@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Post 3 image</title>
+<link rel="stylesheet" href="card.css">
+<style>
+  h2 { margin: 28px 0 40px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .row { display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 20px 32px; border-top: 1px solid var(--surface-container-high); font-size: 28px; line-height: 1.3; }
+  .row:first-of-type { border-top: 0; }
+  .row b { font-size: 20px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--outline); padding-top: 5px; }
+  .card.steel { border-color: var(--outline-variant); }
+  .card.steel .card-head { color: var(--primary); border-color: var(--outline-variant); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="label">Think of a ticket</div>
+  <h2>A concert ticket, but for a <span class="accent">financial asset</span>.</h2>
+  <div class="cols">
+    <div class="card">
+      <div class="card-head">Concert ticket</div>
+      <div class="row"><b>Proves</b><span>Seat 14B is yours</span></div>
+      <div class="row"><b>Moves</b><span>To a new owner in seconds</span></div>
+      <div class="row"><b>Rules set by</b><span>The venue</span></div>
+      <div class="row"><b>Held by</b><span>Whoever the venue allows</span></div>
+    </div>
+    <div class="card steel">
+      <div class="card-head">Digital fund unit</div>
+      <div class="row"><b>Proves</b><span>1 unit of Example Fund is yours</span></div>
+      <div class="row"><b>Moves</b><span>Can settle instantly</span></div>
+      <div class="row"><b>Rules set by</b><span>The issuer, checked automatically</span></div>
+      <div class="row"><b>Held by</b><span>Verified, eligible investors</span></div>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="meta">3/9 | Illustrative example. Example Fund is not a real product.</div>
+  </div>
+</div>
+</body>
+</html>

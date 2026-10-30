@@ -1,0 +1,16 @@
+{
+  "name": "redbelly-without-the-jargon",
+  "private": true,
+  "description": "Build scripts for the X thread entry: images, PDF and source screenshots.",
+  "type": "module",
+  "scripts": {
+    "images": "node scripts/render_images.mjs",
+    "pdf": "node scripts/build_pdf.mjs",
+    "evidence": "python3 scripts/pdf_evidence.py && node scripts/capture_evidence.mjs",
+    "build": "bash scripts/build_all.sh",
+    "verify": "python3 scripts/verify.py"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
