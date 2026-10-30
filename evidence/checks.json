@@ -1,11 +1,11 @@
 {
-  "ran": "2026-10-30 14:24 UTC",
+  "ran": "2026-10-30 14:47 UTC",
   "live": true,
   "counts": {
-    "PASS": 40,
+    "PASS": 42,
     "FAIL": 0,
     "WARN": 0,
-    "PENDING": 1
+    "PENDING": 0
   },
   "results": [
     {
@@ -114,9 +114,9 @@
       "detail": ""
     },
     {
-      "status": "PENDING",
-      "check": "2 quotes need a manual screenshot in evidence/manual/",
-      "detail": "still to add: S02-Q1.png, S02-Q2.png"
+      "status": "PASS",
+      "check": "Manual screenshots present for the 2 quotes that need one",
+      "detail": ""
     },
     {
       "status": "PASS",
@@ -190,6 +190,11 @@
     },
     {
       "status": "PASS",
+      "check": "PDF embeds only brand fonts (BeVietnamPro-Bold, BeVietnamPro-Regular, JetBrainsMono-Regular)",
+      "detail": ""
+    },
+    {
+      "status": "PASS",
       "check": "Website shows every post verbatim",
       "detail": ""
     },
@@ -200,7 +205,7 @@
     },
     {
       "status": "PASS",
-      "check": "All 183 local links and assets on the website resolve",
+      "check": "All 186 local links and assets on the website resolve",
       "detail": ""
     },
     {

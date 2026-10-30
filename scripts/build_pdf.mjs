@@ -1,5 +1,8 @@
 // Print design/print/submission.html to submission/redbelly-thread.pdf (A4).
 // Run scripts/build_docs.py first. Usage: node scripts/build_pdf.mjs
+//
+// No header or footer: Chromium renders those on their own, without the page's
+// web fonts, and falls back to a system font the brand kit does not allow.
 import { createRequire } from "node:module";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -17,12 +20,6 @@ await page.pdf({
   format: "A4",
   printBackground: true,
   preferCSSPageSize: true,
-  displayHeaderFooter: true,
-  headerTemplate: "<span></span>",
-  footerTemplate:
-    '<div style="width:100%;font-size:7pt;color:#596975;text-align:center;font-family:sans-serif">' +
-    '<span class="pageNumber"></span> / <span class="totalPages"></span></div>',
-  margin: { top: "16mm", bottom: "16mm", left: "14mm", right: "14mm" },
 });
 await browser.close();
 console.log("wrote submission/redbelly-thread.pdf");

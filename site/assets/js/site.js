@@ -74,11 +74,34 @@
   if (audio) {
     audio.addEventListener("timeupdate", function () { mark(audio.currentTime); });
     audio.addEventListener("ended", function () { mark(-1); });
+    // Some servers (python -m http.server, for one) do not support range
+    // requests, so the browser cannot seek. Load the file into memory once and
+    // seek there instead.
+    var seekReady = null;
+    function whenSeekable() {
+      if (seekReady) return seekReady;
+      var ok = audio.seekable.length && audio.seekable.end(0) > 1;
+      if (ok || !window.fetch || location.protocol === "file:") { seekReady = Promise.resolve(); return seekReady; }
+      seekReady = fetch(audio.currentSrc || audio.querySelector("source").src)
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.blob(); })
+        .then(function (blob) {
+          return new Promise(function (resolve) {
+            audio.addEventListener("loadedmetadata", resolve, { once: true });
+            audio.src = URL.createObjectURL(blob);
+            audio.load();
+          });
+        })
+        .catch(function () {});
+      return seekReady;
+    }
     document.querySelectorAll("[data-play]").forEach(function (b) {
       b.addEventListener("click", function () {
         var p = data.posts[Number(b.getAttribute("data-play")) - 1];
-        audio.currentTime = p.start;
-        audio.play();
+        whenSeekable().then(function () {
+          audio.currentTime = p.start;
+          mark(p.start);
+          audio.play();
+        });
       });
     });
   }

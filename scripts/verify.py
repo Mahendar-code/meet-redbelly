@@ -208,7 +208,7 @@ def main():
     lacking = sorted(set(quotes) - have - manual)
     ok_if(not lacking, f"{len(have)} quotes have an automated capture", f"no capture: {lacking}")
     pending = sorted(m for m in manual if not (ROOT / "evidence/manual" / f"{m}.png").exists())
-    record("PENDING" if pending else "PASS", f"{len(manual)} quotes need a manual screenshot in evidence/manual/",
+    record("PENDING" if pending else "PASS", f"Manual screenshots present for the {len(manual)} quotes that need one",
            f"still to add: {', '.join(p + '.png' for p in pending)}" if pending else "")
 
     print("== Whole repository")
@@ -279,6 +279,12 @@ def main():
     else:
         ok_if(ptxt and not terms.find_banned(ptxt) and all(flat(p["text"].split("\n")[0]) in flat(ptxt) for p in posts),
               "PDF contains every post and no banned term", "PDF missing or contains a banned term")
+
+    if pdf.exists() and shutil.which("pdffonts"):
+        rows = subprocess.run(["pdffonts", str(pdf)], capture_output=True).stdout.decode().splitlines()[2:]
+        names = sorted({r.split()[0].split("+")[-1] for r in rows if r.strip()})
+        stray = [n for n in names if not n.startswith(("BeVietnamPro", "JetBrainsMono"))]
+        ok_if(not stray, f"PDF embeds only brand fonts ({', '.join(names)})", f"other fonts embedded: {stray}")
 
     html = (ROOT / "site/index.html").read_text()
     page_text = html_to_text(html.encode())

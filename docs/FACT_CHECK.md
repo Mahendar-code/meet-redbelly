@@ -2,7 +2,7 @@
 
 28 claims across 9 posts. Each claim is written out in plain words, then tied to verbatim quotes from the sources. `python3 scripts/verify.py` confirms every quote is present in the saved source text (and, with `--live`, on the live page today).
 
-Status key: Captured automatically means a screenshot with the quote highlighted is in `evidence/captures/`. Manual screenshot pending means the text is verified but the page could not be captured automatically; see `evidence/manual/README.md`.
+Status key: Captured automatically means a screenshot with the quote highlighted is in `evidence/captures/`. Manual screenshot added means the page could not be captured automatically, so the screenshot was taken by hand and is in `evidence/manual/`; see `evidence/manual/README.md`.
 
 ## Post 1
 
@@ -30,7 +30,7 @@ Here is why that matters. 1/9
 - `S11-Q3` from S11, Redbelly Network: "with the support of the University of Sydney, CSIRO's Data 61, and Block8"
   - Captured automatically: `evidence/captures/S11-Q3.png`
 - `S02-Q1` from S02, Redbelly Network: "2021 June Block8, CSIRO and University of Sydney create Redbelly Network as a joint venture with seed funding"
-  - Manual screenshot pending: `evidence/manual/S02-Q1.png`
+  - Manual screenshot added: `evidence/manual/S02-Q1.png`
 
 ### C03. Financial assets such as bonds, investment funds and loans can be issued, managed and traded on it.
 
@@ -162,7 +162,7 @@ Where it comes from: Redbelly grew out of research at the University of Sydney a
 - `S11-Q3` from S11, Redbelly Network: "with the support of the University of Sydney, CSIRO's Data 61, and Block8"
   - Captured automatically: `evidence/captures/S11-Q3.png`
 - `S02-Q1` from S02, Redbelly Network: "2021 June Block8, CSIRO and University of Sydney create Redbelly Network as a joint venture with seed funding"
-  - Manual screenshot pending: `evidence/manual/S02-Q1.png`
+  - Manual screenshot added: `evidence/manual/S02-Q1.png`
 
 ### C15. CSIRO is Australia's national science agency.
 
@@ -176,7 +176,7 @@ Where it comes from: Redbelly grew out of research at the University of Sydney a
 - `S11-Q2` from S11, Redbelly Network: "has officially launched its Mainnet."
   - Captured automatically: `evidence/captures/S11-Q2.png`
 - `S02-Q2` from S02, Redbelly Network: "2024 November Mainnet Launched"
-  - Manual screenshot pending: `evidence/manual/S02-Q2.png`
+  - Manual screenshot added: `evidence/manual/S02-Q2.png`
 
 ### C17. Tokeniser is a Redbelly Network project that operates on Redbelly Network and is built for Australian funds and companies.
 

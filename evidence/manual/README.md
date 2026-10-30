@@ -1,14 +1,14 @@
 # Manual screenshots
 
-Two quotes are verified in the page source and in `evidence/snapshots/S02.txt`, but the page could not be captured automatically. The About Us timeline is a scroll-animated carousel that renders these entries blank in a headless browser.
+Two quotes come from the "Redbelly Journey" timeline on https://redbelly.network/about-us. The text is in the page source and in `evidence/snapshots/S02.txt`, so `verify.py` checks it like every other quote. The timeline itself is a scroll-animated carousel that renders these entries blank in a headless browser, so the screenshots were taken by hand.
 
-Add one screenshot per quote, named exactly as below, then run `python3 scripts/build_docs.py && python3 scripts/build_site.py && python3 scripts/verify.py`. The PENDING check turns to PASS and the fact check links to the new files.
+| File | Timeline entry |
+| --- | --- |
+| `S02-Q1.png` | 2021, June: "Block8, CSIRO and University of Sydney create Redbelly Network as a joint venture with seed funding" |
+| `S02-Q2.png` | 2024, November: "Mainnet Launched" |
 
-| File to add | Page | What must be visible |
-| --- | --- | --- |
-| `S02-Q1.png` | https://redbelly.network/about-us | Timeline entry: 2021, June, "Block8, CSIRO and University of Sydney create Redbelly Network as a joint venture with seed funding" |
-| `S02-Q2.png` | https://redbelly.network/about-us | Timeline entry: 2024, November, "Mainnet Launched" |
+How they were made: screenshots taken in a desktop browser on 30 October 2026, cropped to the timeline heading and the quoted entry, quoted lines boxed in red, and the same header as the automated captures added on top. Nothing else on the page was changed. Neighbouring entries that contain the banned word are outside the crop, not covered over.
 
-How to take them: open the page, scroll to "Redbelly Journey", drag or scroll the timeline until the entry is on screen, and screenshot just that entry with its year and month. Include the browser address bar if you can. If any other part of the page shows the banned word, crop it out or cover it.
+Both facts are also backed by other sources: S03-Q5, S07-Q2 and S11-Q3 for the University of Sydney and CSIRO origin, and S11-Q1 and S11-Q2 for the November 2024 launch.
 
-Both facts are also backed by other sources, so the thread does not depend on these two screenshots: S03-Q5, S07-Q2 and S11-Q3 for the University of Sydney and CSIRO origin, and S11-Q1 and S11-Q2 for the November 2024 launch.
+To replace them: save new screenshots here with the same names, then run `python3 scripts/build_docs.py && python3 scripts/build_site.py && python3 scripts/verify.py`.

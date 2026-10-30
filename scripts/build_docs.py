@@ -122,8 +122,8 @@ def fact_check_md():
            "verbatim quotes from the sources. `python3 scripts/verify.py` confirms every quote is present in "
            "the saved source text (and, with `--live`, on the live page today).", "",
            "Status key: Captured automatically means a screenshot with the quote highlighted is in "
-           "`evidence/captures/`. Manual screenshot pending means the text is verified but the page could not "
-           "be captured automatically; see `evidence/manual/README.md`.", ""]
+           "`evidence/captures/`. Manual screenshot added means the page could not be captured automatically, so "
+           "the screenshot was taken by hand and is in `evidence/manual/`; see `evidence/manual/README.md`.", ""]
     for p in POSTS:
         out += [f"## Post {p['n']}", "", "```text", p["text"], "```", ""]
         for c in p["claims"]:

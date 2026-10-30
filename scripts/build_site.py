@@ -141,7 +141,7 @@ def page():
 <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-<a class="label" href="#thread" style="position:absolute;left:-9999px">Skip to the thread</a>
+<a class="skip" href="#thread">Skip to the thread</a>
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Back to top">

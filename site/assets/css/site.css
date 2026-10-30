@@ -30,6 +30,10 @@ code, .mono { font-family: var(--font-mono); font-size: 0.875em; letter-spacing:
 .wrap { max-width: var(--space-max-width); margin: 0 auto; padding: 0 var(--space-margin-mobile); }
 @media (min-width: 900px) { .wrap { padding: 0 var(--space-margin-desktop); } }
 
+/* Keyboard users can jump straight to the thread. */
+.skip { position: absolute; left: -9999px; top: 12px; z-index: 30; background: var(--brand); color: var(--on-brand); padding: 10px 14px; border-radius: var(--radius-base); font-weight: 700; font-size: 14px; text-decoration: none; }
+.skip:focus { left: 16px; }
+
 /* label-caps */
 .label { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--outline); margin: 0; }
 

@@ -18,7 +18,7 @@ Everything else in this repository exists so the entry can be checked:
 | Extra | Where it is |
 | --- | --- |
 | Claim by claim fact check | [`docs/FACT_CHECK.md`](docs/FACT_CHECK.md): 28 claims, each tied to verbatim quotes |
-| Screenshots of every quote on its source | [`evidence/captures/`](evidence/captures/), 46 images with the quote highlighted, plus 2 to add by hand |
+| Screenshots of every quote on its source | [`evidence/captures/`](evidence/captures/), 48 screenshots with the quote highlighted (46 automated, 2 taken by hand) |
 | Saved text of every source | [`evidence/snapshots/`](evidence/snapshots/) |
 | Automated checks | [`scripts/verify.py`](scripts/verify.py), results in [`evidence/checks.json`](evidence/checks.json) |
 | Website with the whole thread, narration, sources and checks | [`site/index.html`](site/index.html) |
@@ -69,7 +69,7 @@ Re-check every quote against the live websites as well:
 python3 scripts/verify.py --live
 ```
 
-Current result: 39 passed, 0 failed, 1 pending offline, and 40 passed with `--live` (checked 30 October 2026). The pending item is two manual screenshots, explained in [`evidence/manual/README.md`](evidence/manual/README.md). Both facts they cover are already backed by other sources.
+Current result: 41 passed, 0 failed offline, and 42 passed with `--live` (checked 30 October 2026).
 
 ## View the website
 
